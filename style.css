@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+img {
+    width: 400px;
+}
+
+
+.post {
+    background-color: white;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.post-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.post-img {
+    width: 400px;
+}
+
+.post-body {
+    padding: 10px 10px 10px 10px;
+}
+
+.post-icons {
+    display: flex;
+    width: 80%;
+}
+
+.bodyicon {
+    margin-right: 5px;
+}
+
+.bodyiconright {
+    position: relative;
+    left: 275px;
+}
+
+#html5 {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    height: 100%;
+}
+
+#html5icon {
+    position: relative;
+    top: 10px;
+}
+
+#html5text {
+    position: relative;
+    top: -10px;
+    padding: 10px;
+}
+
+#ellipsis {
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top: 10px;
+}
